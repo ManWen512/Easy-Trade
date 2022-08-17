@@ -1,0 +1,76 @@
+.profile{
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #EAEDED;
+}
+
+.coverphoto{
+    width:100%;
+    height: 13rem;
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+
+.profilephoto{
+    margin: -70px 0 0 25px;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profilephoto1{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    top: 5px;
+    left: 5px;
+}
+
+.profilediv{
+    position: relative;
+}
+.editbtn{
+    position: absolute;
+    background-color: aquamarine;
+    top: 220px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nftabs{
+    display: flex;
+    margin-top: 30px;
+}
+
+.tab1, .tab2, .tab3{
+    background-color: pink;
+    padding: 2px 45px 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.tab1:hover, .tab2:hover, .tab3:hover{
+    color:white ;
+    background-color:#F1948A ;
+}
+
+.tab2{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.activetab{
+    background-color: #F1948A;
+}
+
+
+

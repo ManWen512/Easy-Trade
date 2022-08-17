@@ -1,0 +1,44 @@
+.menu{
+    background-color: #EAEDED;
+    margin-top: 15px;
+    padding: 10px 15px 10px;
+    border-radius: 8px;
+    border: 2px solid #BFC9CA;
+}
+
+.homemenu, .profilemenu, .settingmenu{
+    padding: 5px 65px;
+    border-radius: 10px;
+}
+
+.menuicon{
+    margin-top: 20px;
+}
+
+.homemenu{
+    background-color: #FAE5D3 ;
+    text-decoration: none;
+    color: black;
+}
+
+.profilemenu{
+    background-color: #D6DBDF;
+    text-decoration: none;
+    color: black;
+}
+
+.settingmenu{
+    background-color: #D2B4DE;
+    text-decoration: none;
+    color: black;
+}
+
+
+.homemenu:hover, .profilemenu:hover, .settingmenu:hover{
+    color: black;
+}
+
+.activemenu{
+    background-color: #BFC9CA;
+    border: 2px solid white;
+}

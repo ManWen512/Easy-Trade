@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Profile from "./Pages/Profile";
+import SideMenu from "./Components/SideMenu";
+import { Container, Row, Col } from "react-bootstrap";
+import { Switch, Route} from 'react-router-dom';
+import FriMenu from "./Components/FriendMenu";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Container>
+        <Row>
+          <Col md="3">
+            <SideMenu />
+          </Col>
+          <Col>
+            <Switch>
+              <Route exact path='/'>
+                <Home/>
+              </Route>
+              <Route path='/profile'>
+                <Profile />
+              </Route>
+            </Switch>
+          </Col>
+          <Col md="3">
+            <FriMenu />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
